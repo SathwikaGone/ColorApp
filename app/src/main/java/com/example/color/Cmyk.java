@@ -13,6 +13,7 @@ public class Cmyk extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cmyk);
     }
+
     public void changeColor(View v){
         EditText et1 = (EditText) findViewById(R.id.editText5);
         EditText et2 = (EditText) findViewById(R.id.editText6);

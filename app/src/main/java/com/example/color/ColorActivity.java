@@ -48,6 +48,7 @@ public class ColorActivity extends AppCompatActivity {
         //ini.putExtra("blue",S3);
         bt.setBackgroundColor(Color.rgb(S1,S2,S3));
     }
+
     public void hexaDecimal(View v){
         EditText et3 = (EditText) findViewById(R.id.editText9);
         String str=et3.getText().toString();

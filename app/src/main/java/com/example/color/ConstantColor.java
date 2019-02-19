@@ -16,6 +16,7 @@ public class ConstantColor extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_constant_color);
     }
+
     public void changeColor(View v){
         EditText et1 = (EditText) findViewById(R.id.editText4);
         String S1= et1.getText().toString();

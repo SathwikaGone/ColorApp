@@ -20,6 +20,7 @@ public class Pantone extends AppCompatActivity {
         bt1.setBackgroundColor(Color.rgb(198,68,122));
         bt2.setBackgroundColor(Color.rgb(239,192,80));
     }
+
     public void pantone(View v){
         Intent intt = new Intent();
         switch(v.getId()){
